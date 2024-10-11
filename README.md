@@ -1,7 +1,5 @@
 # iVPSV
-An intuitive Visualisation Platform for Structural Variation (iVPSV) 
-
-"**iVPSV**: An **i**ntuitive **V**isualisation **P**latform for **S**tructural **V**ariation data on desktops"
+**iVPSV**: An **i**ntuitive **V**isualisation **P**latform for **S**tructural **V**ariation data on desktops
 
 # Brief Background
 
