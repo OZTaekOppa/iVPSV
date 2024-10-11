@@ -25,8 +25,8 @@ Hyungtaek Jung et al: **iVPSV**: An intuitive visualisation platform for structu
 **iVPSV** is made up of six programs and packages (See LICENSE), mainly written in Python 3.7+.
 
 ## INSTALLATION
-Windows: Please download the program from [this link](https://github.com/TaekAndBrendan/ivpsv/ivpsv-08.5.7z)
-!!! Please note, for antivirus issues, please follow these steps: 1) click "undo action token" from "other actions", 2) click "start undo", and 3) re-install the program. Alternatively, if you see this dialog box "Suspicious File Warning", "It contains a suspicious file. Do you want to proceed with decompression?", please just click "Yes". Any other issues, we highly encourage users to use the [Issues](https://github.com/OZTaekOppa/iVPSV/issues).
+Windows: Please download the program from [this link](https://github.com/OZTaekOppa/iVPSV/downloads/???)
+!!! Please note, for antivirus issues, please follow these steps: 1) click "undo action token" from "other actions", 2) click "start undo", and 3) re-install the program. Alternatively, if you see this dialogue box "Suspicious File Warning", "It contains a suspicious file. Do you want to proceed with decompression?", please just click "Yes". Any other issues, we highly encourage users to use the [Issues](https://github.com/OZTaekOppa/iVPSV/issues).
 
 Linux or Mac: To install iVPSV, run the following series of commands.
 
@@ -95,7 +95,7 @@ Long-read structuravl variation callers: [cuteSV](https://github.com/tjiangHIT/c
 
 ### Main data input module (MIM)
 
-![Figure 1: Integration of the main window with a data input module of iVPSV.](./figures/iVPSV_Pics1.png)
+![Figure 1: Integration of the main window with a data input module of iVPSV.](./images/iVPSV_Pics1.png)
 **Figure 1: Integration of the main window with a data input module of iVPSV.**
 
 I) One main input module (vcf only, red box) and three extra work modules (green box) to VCF Viewer, SV Navigator (BAM/GFF/GTF), and FASTA Extractor (Fig 1A). 
@@ -107,14 +107,14 @@ III) Three extra main modules (green box) to assist with main input modules and 
 IV) Informative how to use and outcome window (Fig 1B).
 
 
-![Figure 2: Integration of main data input module of iVPSV.](./figures/iVPSV_Pics2.png)
+![Figure 2: Integration of main data input module of iVPSV.](./images/iVPSV_Pics2.png)
 **Figure 2: Integration of main data input module of iVPSV.**
 
 MIM Step 1: Browse and select your input file (one vcf file from I) (Fig 2A and B). Once browsed and selected, click OK. It is highly recommended to make sure your working directory is your local drive for moving to the next steps.
 
 MIM Step 2: Browse and select the filtering options from II (Fig 2C). The default will be all chromosomes that will take a longer time to visualise. The checked "Pass" will default to see the passed structural variation outcome from the vcf file.
 
-MIM Step 3: Natigate the summarised outcomes (Fig 2D and E) (e.g. bar graphs). Move your mouse on each graph to see more interactive information. Zoom in/out mode is also acceptable.
+MIM Step 3: Navigate the summarised outcomes (Fig 2D and E) (e.g. bar graphs). Move your mouse on each graph to see more interactive information. Zoom in/out mode is also acceptable.
 
 MIM Step 4: To see real-time log reporting and monitoring for an executed job, a pop-up dialogue box will be available. 
 
@@ -134,12 +134,12 @@ Each of these modules contains many user-friendly navigation/interactive modes f
 The VCF module is designed to easily import and run searches on a local computer and database. Using "Extra VCF File", a multiple vcf file can be uploaded and analysed. The same filtering options can be applied for the multiple vcf files too.
 Figure 3 shows an easy step for each stage of the VCF module.
 
-![Figure 3: User-friendly standalone work modules in iVPSV: VCF Viewer.](./figures/iVPSV_Pics3.png)
+![Figure 3: User-friendly standalone work modules in iVPSV: VCF Viewer.](./images/iVPSV_Pics3.png)
 **Figure 3: User-friendly standalone work modules in iVPSV: VCF Viewer.**
 
 Most steps include further manual options for a user-specified parameter. 
 
-VCF Step 1) Browse and select your input file (multiple vcf files). Once browsed and selected, click OK. Or, you can delete unwanted vcf file from the topdown selection (Fig 3A and B). 
+VCF Step 1) Browse and select your input file (multiple vcf files). Once browsed and selected, click OK. Or, you can delete unwanted vcf file from the top-down selection (Fig 3A and B). 
 
 VCF Step 2) Browse and select the filtering options from II (Fig 3A and B). Once browsed and selected, click Filter (Fig 3C). The default will be all chromosomes that will take a longer time to visualise. The checked "Pass" will default to see the passed structural variation outcome from the vcf file.
 
@@ -151,11 +151,11 @@ VCF Step 3) Navigate the summarised outcomes (Fig 3D and E) (e.g. bar graphs). M
 The SV Navigator is designed to easily import and run searches on a local computer and database. Using "BAM and GFF3", a multiple bam file can be uploaded and analysed. The same filtering options can be applied for the multiple bam files too. Please note bam.bai file must be in the same folder.
 Figure 4 shows an easy step for each stage for the SV Navigator.
 
-![Figure 4: User-friendly standalone work modules in iVPSV: SV Navigator Part1.](./figures/iVPSV_Pics41.png) 
+![Figure 4: User-friendly standalone work modules in iVPSV: SV Navigator Part1.](./images/iVPSV_Pics41.png) 
 **Figure 4: User-friendly standalone work modules in iVPSV: SV Navigator Part1.**
 
 
-![Figure 4: User-friendly standalone work modules in iVPSV: SV Navigator Part2.](./figures/iVPSV_Pics42.png)
+![Figure 4: User-friendly standalone work modules in iVPSV: SV Navigator Part2.](./images/iVPSV_Pics42.png)
 **Figure 4: User-friendly standalone work modules in iVPSV: SV Navigator Part2.**
 
 BAM Step 1) Browse and select your input file (multiple bam files) (Fig 4A and B). Once browsed and selected, click Filter (Fig 4C). Or, you can delete unwanted bam files from the topdown selection. The GFF3 file can be uploaded via the same Browse and select (Fig 4D).
@@ -171,9 +171,9 @@ BAM Step 4) Navigate the summarised outcomes from VCF Viewer (Fig 3D and E) as w
 
 #### FASTA Extractor
 It is designed to easily extract (indexed ID with its sequence) of your target genomic sequence on a local computer. 
-Figure 5 shows an easy step for each stage for the FASTA module.
+Figure 5 shows an easy step for each stage of the FASTA module.
 
-![Figure 5: User-friendly standalone work modules in iVPSV: FASTA Extractor.](./figures/iVPSV_Pics5.png)
+![Figure 5: User-friendly standalone work modules in iVPSV: FASTA Extractor.](./images/iVPSV_Pics5.png)
 **Figure 5: User-friendly standalone work modules in iVPSV: FASTA Extractor.**
 
 FASTA Step 1) Browse and select your input file (fasta and fasta.fai files). Once browsed and selected, click OK (Fig 5A). 
